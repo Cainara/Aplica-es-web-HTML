@@ -1,0 +1,50 @@
+ul{ 
+	list-style:none;
+	border: 2px solid black;
+	text-align:center;
+}
+ul li{
+	display:inline;
+	line-height:50 px;
+}
+#menu ul {
+    padding:12px;
+    margin:0px;
+    background-color:#333;
+    list-style:none;
+}
+#menu ul li { display: inline; }
+#menu ul li a {
+    padding: 10px 70px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#333;
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+img{
+  display: table;
+  width: 100%;
+  height: 50vh;
+  padding: 50px 0;
+  color: white;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWzm5mRDqkbc7qM8o0egPnNAabQs7_sA8Fa-VlWABQCn8hA38D') no-repeat bottom center scroll;
+  background-position: 30% 45%;
+  background-size: cover;  
+}
+p{
+	background : #FFC;
+	}
+tr{
+	background: #FFC;
+	text-align:center;
+}
+h4{background : gray;
+}
